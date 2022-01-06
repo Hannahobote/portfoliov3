@@ -1,0 +1,22 @@
+  <nav className="navbar navbar-light">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/" >imhannaho</Link>
+        <ul className="nav justify-content-end fw-light">
+          <li className="nav-item">
+            <Link className="nav-link" to="index.html">About me</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link"  to="projects.html">Projects</Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+     <Link to="Home">Home</Link>
+    <Link to="About">Home</Link>
+    <Link to="Projects">Home</Link>
+
+          <Link className="navbar-brand" to="/" >imhannaho</Link>
+      <Link to="/" className="nav-link" >Home</Link>
+      <Link to="/about" className="nav-link">About</Link>
+      <Link to="/Projects" className="nav-link">Projects</Link>

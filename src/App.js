@@ -1,13 +1,27 @@
 import './App.css';
-import { Navbar } from './components/Navbar'
-import { MyHeader } from './components/MyHeader'
+import { BrowserRouter, Routes,  Route, Link  } from 'react-router-dom';
+// import MyHeader from './components/MyHeader.js'
+import Footer from './components/Footer.js'
+import Home from './components/Home.js'
+import About from './components/About.js'
+import Projects from './components/Projects.js'
+import PageNotFound from './components/PageNotFound.js'
+import Mynavbar from './components/Mynavbar';
 
 function App() {
-  const name = 'hannah'
+
   return (
     <div className="App">
-      hi its {name}
-      <Navbar></Navbar>
+      <Mynavbar />
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="*" element={<PageNotFound/>} />
+        </Routes>
+     </BrowserRouter>
+      <Footer />
     </div>
   )
 }
