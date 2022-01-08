@@ -10,7 +10,7 @@ function About() {
           <div className='col-md'>
             <p className='my-p-font'>
               I'm currently learning how to build fullstack applications using JavaScript and it's various frameworks at univeristy. <br></br>
-              I recently started learning React.js and MERN-stack for a course im taking in March 2022. In the future I plan learn how to build  fullstack applications with Next.js, firebase, nextAuth, TailwindCSS and much more.
+              I recently started learning React.js, MERN-stack and REST API for a course im taking in March 2022. In the future I plan learn how to build  fullstack applications with Next.js, firebase, nextAuth, TailwindCSS and much more.
             </p>
           </div>
         </div>
@@ -37,7 +37,10 @@ function About() {
 
         <div className='row my-3' id="row3">
           <div className='col-md'>
-         <a href='#' target='_blank' rel="noreferrer" class="btn btn-outline-dark">
+         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hannah.obote@gmail.com" 
+            target='_blank' 
+            rel="noreferrer" 
+            class="btn btn-outline-dark">
          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill mx-2" viewBox="0 0 16 16">
           <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
           </svg>
