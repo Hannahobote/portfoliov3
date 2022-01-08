@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import icon from '../img/icon.png'
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
           <section className='intro col mx-3 my-3 text-center' id="row1-col1">
             <header className='my-h-font'>
             <img 
-              src='../../public/img/icon-girl.png'
+              src={icon}
               alt='icon'
               className='img-fluid img-responsive my-2'
               style={{
