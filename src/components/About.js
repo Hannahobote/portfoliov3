@@ -16,10 +16,10 @@ function About() {
         <div className='row'>
 
           <div className='col-md'>
-            {/* this coolum remains empty o that conent can be in the middle */}
+            {/* this column remains empty so that conent can be in the middle */}
           </div>
 
-          <div className='col-md'>
+          <div className='col-md-6'>
             <img
               src={backend}
               alt='icon'
@@ -31,17 +31,26 @@ function About() {
             />
             <h5 className='my-h-font-bold'>I'm a web development student at Linnaeus University, and will be graduating 2024.</h5>
             <h6>Current Stack</h6>
-            <Icon img={nodejs} alt='nodejs' />
-            <Icon img={html2} alt={'html'} />
-            <Icon img={css} alt={'css'} />
-            <Icon img={js} alt={'js'} />
-            <Icon img={react} alt={'react'} />
-            <Icon img={java} alt={'java'} />
+            <div class="row text-center">
+              <div class="col-md-auto">
+                <Icon img={nodejs} alt='nodejs' />
+                <Icon img={html2} alt={'html'} />
+                <Icon img={css} alt={'css'} />
+              </div>
+              <div class="col-md-auto">
+                <Icon img={js} alt={'js'} />
+                <Icon img={react} alt={'react'} />
+                <Icon img={java} alt={'java'} />
+              </div>
+            </div>
             <p className='my-p-font'> Along those i also know how to buld a backend with Express.js and REST API</p>
-            <h6>intrest</h6>
+            <h6>Interest</h6>
             <p className='my-p-font'>
               I'm also intressted in learning React.js, MERN-stack, Next.js, NextAuth.js, Firebase, TailwindCSS and vue.js, after finding out the amazing things you can do with them.
             </p>
+
+
+
             <IconButton
               lable='LinkedIn'
               link='https://linkedin.com/in/hannah-obote-61110619a'
@@ -68,7 +77,7 @@ function About() {
           </div>
 
           <div className='col-md'>
-            {/* this coolum remains empty o that conent can be in the middle */}
+            {/* this column remains empty so that conent can be in the middle */}
           </div>
 
         </div>
