@@ -19,7 +19,7 @@ function About() {
             {/* this column remains empty so that conent can be in the middle */}
           </div>
 
-          <div className='col-md-6'>
+          <div className='col-md-5'>
             <img
               src={backend}
               alt='icon'
@@ -35,17 +35,19 @@ function About() {
               <div class="col-md">
                 <Icon img={nodejs} alt='nodejs' />
                 <Icon img={html2} alt={'html'} />
-                <Icon img={css} alt={'css'} />
               </div>
               <div class="col-md">
+                <Icon img={css} alt={'css'} />
                 <Icon img={js} alt={'js'} />
+              </div>
+              <div class="col-md">
                 <Icon img={react} alt={'react'} />
                 <Icon img={java} alt={'java'} />
               </div>
             </div>
-            <p className='my-p-font'> Along those i also know how to buld a backend with Express.js and REST API</p>
+            <p className='my-p-font text-left'> and I use Express.js, mongodb and REST API on the backend </p>
             <h6>Interest</h6>
-            <p className='my-p-font'>
+            <p className='my-p-font text-left'>
               I'm also intressted in learning React.js, MERN-stack, Next.js, NextAuth.js, Firebase, TailwindCSS and vue.js, after finding out the amazing things you can do with them.
             </p>
 
