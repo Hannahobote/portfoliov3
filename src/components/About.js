@@ -8,9 +8,49 @@ function About() {
 
         <div className='row mx-5 my-5' id="row1">
           <div className='col-md'>
+            <h5 className='my-h-font-bold'>I'm a web development student at Linnaeus University, and will be graduating 2024.</h5>
+          </div>
+        </div>
+
+        
+        <div className='row mx-5 my-5' id="row1">
+          <div className='col-md' id='row2-col1'>
+            <h6>Current Stack</h6>
             <p className='my-p-font'>
-              I'm currently learning how to build fullstack applications using JavaScript and it's various frameworks at univeristy. <br></br>
-              I recently started learning React.js, MERN-stack and REST API for a course im taking in March 2022. In the future I plan learn how to build  fullstack applications with Next.js, firebase, nextAuth, TailwindCSS and much more.
+              In school, i've done most of my projects with:
+             <ul
+                style={{
+                  listStyleType: 'none'
+                }}
+              >
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JavaScript</li>
+               <li>Express.js</li>
+               <li>Handlebars.js</li>
+               <li>Rest API</li>
+               <li>Java (to learn about OOP and MVC)</li>
+             </ul>
+            </p>
+          </div>
+    
+          <div className='col-md' id='row2-col1'>
+            <h6>intrest</h6>
+            <p className='my-p-font'> 
+            I'm currently intressted in learning:
+            <ul
+             style={{
+              listStyleType: 'none'
+            }}
+            >
+            <li>React.js</li>
+            <li>MERN-stack</li>
+            <li>Next.js</li>
+            <li>NextAuth.js</li>
+            <li>Firebase</li>
+            <li>TailwindCSS</li>
+            <li>Vue.js</li>
+            </ul>
             </p>
           </div>
         </div>
