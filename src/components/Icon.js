@@ -11,8 +11,8 @@ function Icon (props) {
         alt={alt}
         className='img-fluid img-responsive my-2'
         style={{
-          width: '100px',
-          height: '100px'
+          width: '75px',
+          height: '75px'
         }}
       ></img>
     </div>

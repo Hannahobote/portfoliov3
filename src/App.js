@@ -21,8 +21,12 @@ function App() {
             <Route path="/comingsoon" element={<ComingSoon/>} />
             <Route path="*" element={<PageNotFound/>} />
         </Routes>
-      <Footer />
-  
+      <Footer
+        style={{
+          position: 'fixed-bottom',
+          bottom: '0'
+        }}
+      />
     </div>
   )
 }
