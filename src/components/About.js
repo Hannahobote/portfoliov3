@@ -31,13 +31,13 @@ function About() {
             />
             <h5 className='my-h-font-bold'>I'm a web development student at Linnaeus University, and will be graduating 2024.</h5>
             <h6>Current Stack</h6>
-            <div class="row text-center">
-              <div class="col-md-auto">
+            <div class="row ">
+              <div class="col-md">
                 <Icon img={nodejs} alt='nodejs' />
                 <Icon img={html2} alt={'html'} />
                 <Icon img={css} alt={'css'} />
               </div>
-              <div class="col-md-auto">
+              <div class="col-md">
                 <Icon img={js} alt={'js'} />
                 <Icon img={react} alt={'react'} />
                 <Icon img={java} alt={'java'} />
