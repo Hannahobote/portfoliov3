@@ -46,3 +46,11 @@
       <Link to="/Projects" className='nav-item nav-link'>Projects</Link>
       </div>
     </nav>
+
+                  <li>HTML</li>
+               <li>CSS</li>
+               <li>JavaScript</li>
+               <li>Express.js</li>
+               <li>Handlebars.js</li>
+               <li>Rest API</li>
+               <li>Java (to learn about OOP and MVC)</li>
