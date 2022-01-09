@@ -11,6 +11,8 @@ export default function IconButton(props) {
         href={link} class="fs-5 mb-3 text-dark text-decoration-none"
         target='_blank'
         rel="noreferrer"
+        className='my-primary-font-color'
+        style={{ textDecoration: 'none'}}
       >
         {svg}
         {lable}

@@ -21,7 +21,6 @@ function App() {
             <Route path="/comingsoon" element={<ComingSoon/>} />
             <Route path="*" element={<PageNotFound/>} />
         </Routes>
-      <Footer/>
     </div>
   )
 }
