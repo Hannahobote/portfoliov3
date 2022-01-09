@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import icon from '../img/icon.png'
 import { Container, Row, Col } from 'react-bootstrap';
-import Footer from './Footer'
 
 function Home() {
   return (

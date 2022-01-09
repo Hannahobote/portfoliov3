@@ -97,7 +97,7 @@ function About() {
         </Row>
       </Container>
 
-      <Footer />
+    <Footer/>
 
     </div>
   )
