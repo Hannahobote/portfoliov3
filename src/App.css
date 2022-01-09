@@ -31,3 +31,9 @@ body, html {
   overflow: hidden;*/
   /*font-family: 'Montserrat', sans-serif;*/
 }
+
+p.toggler {
+  background-color: transparent!important;
+  }
+  
+.toggle_content { background: transparent !important; }  

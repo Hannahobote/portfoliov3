@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import icon from '../img/icon.png'
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
   return (
     <div>
-      <div className='container-md'>
-        <div className='row'>
-
-          <section className='intro col mx-3 my-3 text-center' id="row1-col1">
-            <header className='my-h-font'>
-            <img 
+      <Container>
+        <Row>
+          <Col>
+            <img
               src={icon}
               alt='icon'
               className='img-fluid img-responsive my-2'
@@ -20,15 +19,14 @@ function Home() {
               }}
             >
             </img>
+            <div className='my-h-font'>
               <h4>Hello I'm Hannah Obote,</h4>
               <h4>an aspiring fullstack developer </h4>
-            </header>
+            </div>
             <Link to='/comingsoon' className='btn btn-outline-dark my-p-font mt-3'>Check out my projects</Link>
-          </section>
-
-        </div>
-
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   )
 }
