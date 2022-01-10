@@ -1,11 +1,8 @@
 import './App.css';
 import {Routes,  Route} from 'react-router-dom';
 import Home from './components/Home.js'
-import About from './components/About.js'
-import Projects from './components/Projects.js'
 import PageNotFound from './components/PageNotFound.js'
 import Mynavbar from './components/Mynavbar';
-import ComingSoon from './components/ComingSoon';
 
 
 function App() {
