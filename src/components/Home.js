@@ -1,13 +1,11 @@
 import React from 'react'
 import icon from '../img/icon.png'
-import { Container, Row, Col } from 'react-bootstrap';
+
 
 function Home() {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col>
+
             <img
               src={icon}
               alt='icon'
@@ -20,7 +18,7 @@ function Home() {
             </img>
             <div className='my-primary-font-color'>
               <h4>Hello I'm Hannah Obote,</h4>
-              <h4>an aspiring fullstack developer </h4>
+              <h4>an aspiring Fullstack Developer </h4>
             </div>
 
             <div 
@@ -31,10 +29,7 @@ function Home() {
             <a href='https://mail.google.com/mail/?view=cm&fs=1&to=hannah.obote@gmail.com'  target='_blank' rel='noreferrer'  className='btn btn-primary my-p-font mx-2'>Gmail</a>
 
             </div>
-          </Col>
-        </Row>
-
-      </Container>
+ 
     </div>
   )
 }
