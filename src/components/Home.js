@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import icon from '../img/icon.png'
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -23,9 +22,18 @@ function Home() {
               <h4>Hello I'm Hannah Obote,</h4>
               <h4>an aspiring fullstack developer </h4>
             </div>
-            <Link to='/comingsoon' className='btn btn-outline-light my-p-font mt-3'>Check out my projects</Link>
+
+            <div 
+            className='my-3'>
+
+            <a href='https://linkedin.com/in/hannah-obote-61110619a' target='_blank' rel='noreferrer' className='btn btn-primary my-p-font mx-2'>LinkedIn</a>
+            <a href='https://github.com/Hannahobote'  target='_blank' rel='noreferrer'  className='btn btn-primary my-p-font mx-2'>GitHub</a>
+            <a href='https://mail.google.com/mail/?view=cm&fs=1&to=hannah.obote@gmail.com'  target='_blank' rel='noreferrer'  className='btn btn-primary my-p-font mx-2'>Gmail</a>
+
+            </div>
           </Col>
         </Row>
+
       </Container>
     </div>
   )

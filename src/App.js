@@ -7,6 +7,7 @@ import PageNotFound from './components/PageNotFound.js'
 import Mynavbar from './components/Mynavbar';
 import ComingSoon from './components/ComingSoon';
 
+
 function App() {
 
   return (
@@ -14,9 +15,11 @@ function App() {
       <Mynavbar />
         <Routes>
             <Route path="/" element={<Home/>} />
+            {/*
             <Route path="/about" element={<About/>} />
             <Route path="/projects" element={<Projects/>} />
-            <Route path="/comingsoon" element={<ComingSoon/>} />
+            <Route path="/comingsoon" element={<ComingSoon/>} />            
+            */}
             <Route path="*" element={<PageNotFound/>} />
         </Routes>
     </div>

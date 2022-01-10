@@ -1,56 +1,26 @@
-  <nav className="navbar navbar-light">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/" >imhannaho</Link>
-        <ul className="nav justify-content-end fw-light">
-          <li className="nav-item">
-            <Link className="nav-link" to="index.html">About me</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link"  to="projects.html">Projects</Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+)
 
-     <Link to="Home">Home</Link>
-    <Link to="About">Home</Link>
-    <Link to="Projects">Home</Link>
-
-          <Link className="navbar-brand" to="/" >imhannaho</Link>
-      <Link to="/" className="nav-link" >Home</Link>
-      <Link to="/about" className="nav-link">About</Link>
-      <Link to="/Projects" className="nav-link">Projects</Link>
-
-
-      bootstrap links
-      <>
-      <Navbar variant="light">
-        <Container>
-          <Navbar.Brand href="/">imhannaho</Navbar.Brand>
-          <Nav className="nav justify-content-end fw-light">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
-
-
-    navbar updated
-      <nav className="navbar navbar-expand-lg navbar-light mx-5 my-1">
-      <h1 className="navbar-brand">iamhannaho</h1>
-      <div className="links navbar-nav justify-content-start">
-      <Link to="/" className='nav-item nav-link'>Home</Link>
-      <Link to="/about" className='nav-item nav-link'>About</Link>
-      <Link to="/Projects" className='nav-item nav-link'>Projects</Link>
-      </div>
-    </nav>
-
-                  <li>HTML</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>Express.js</li>
-               <li>Handlebars.js</li>
-               <li>Rest API</li>
-               <li>Java (to learn about OOP and MVC)</li>
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+)
