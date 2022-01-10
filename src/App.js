@@ -1,8 +1,10 @@
 import './App.css';
+import 'antd/dist/antd.css'
 import {Routes,  Route} from 'react-router-dom';
 import Home from './components/Home.js'
 import PageNotFound from './components/PageNotFound.js'
 import Mynavbar from './components/Mynavbar';
+import { DatePicker } from 'antd';
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Mynavbar />
+      <DatePicker />
         <Routes>
             <Route path="/" element={<Home/>} />
             {/*
