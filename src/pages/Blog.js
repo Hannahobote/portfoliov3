@@ -4,9 +4,10 @@ import {Link} from 'react-router-dom';
 export default function Blog() {
   return (
     <div>
-      <Link to='/blog/git-basics'> git basics tutorial</Link>
-      <br></br>
-      my blog
+      <Link to='git'> git basics tutorial</Link>
+      <br/>
+      <Link to='hannah'> git basics tutorial</Link>
+    
     </div>
   )
 }

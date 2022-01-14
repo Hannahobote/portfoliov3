@@ -37,3 +37,12 @@ body, html {
   border-color: #ffd064;
 }
 
+.ant-row, .ant-row-middle {
+  margin-top: 10px;
+}
+
+.ant-timeline, .ant-timeline-alternate {
+  margin-top: 10px;
+
+}
+

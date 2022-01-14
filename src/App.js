@@ -16,11 +16,11 @@ function App() {
     <Mynavbar/>
         <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/projects" element={<Projects/>} />
+            <Route path="about" element={<About/>} />
+            <Route path="projects" element={<Projects/>} />
             {/*nested routes for blog*/}
-            <Route path="/blog" element={<Blog/>}> 
-              <Route path="blog/git-basics" element={<GitBasics/>}></Route>
+            <Route path="blog" element={<Blog/>}> 
+              <Route path="git" element={<GitBasics/>}></Route>
             </Route>
             <Route path="*" element={<Error/>} />
         </Routes>
