@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col} from 'react-bootstrap';
 import icon from '../img/icon.png'
-import MyCard from './MyCard';
+import MyCard from '../components/MyCard';
 
 function Projects() {
   return (

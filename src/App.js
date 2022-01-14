@@ -1,8 +1,8 @@
 import './App.css';
-import 'antd/dist/antd.css'
+import 'antd/dist/antd.min.css'
 import {Routes,  Route} from 'react-router-dom';
-import Home from './components/Home.js'
-import PageNotFound from './components/PageNotFound.js'
+import Home from './pages/Home.js'
+import PageNotFound from './pages/PageNotFound.js'
 import Mynavbar from './components/Mynavbar';
 import { DatePicker } from 'antd';
 
