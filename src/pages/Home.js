@@ -1,11 +1,22 @@
 import React from 'react'
 import icon from '../img/icon.png'
+import { Row, Col} from 'antd';
 
 
 function Home() {
   return (
     <div>
 
+    
+<Row gutter={[8, 24]}>
+          <Col span={8} />
+          <Col span={8} />
+          <Col span={8} />
+
+          <Col span={8} />
+          <Col span={8} />
+          <Col span={8} />
+        </Row>
             <img
               src={icon}
               alt='icon'
