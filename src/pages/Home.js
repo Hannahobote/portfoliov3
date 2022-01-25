@@ -16,6 +16,7 @@ function Home() {
       <Button size='small' target={'_blank'} href='https://github.com/Hannahobote'>Git Hub</Button>
       <Button size='small' target={'_blank'} href='https://mail.google.com/mail/?view=cm&fs=1&to=hannah.obote@gmail.com'>Gmail</Button>
       </Space>
+
       
       </Content> 
     </div>
