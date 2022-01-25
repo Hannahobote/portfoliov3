@@ -1,7 +1,5 @@
 import React from 'react'
 import icon from '../img/icon.png'
-import {Button, Space, Layout} from 'antd'
-const { Content } = Layout
 
 function Home() {
   return (
