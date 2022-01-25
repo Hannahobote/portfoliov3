@@ -5,7 +5,7 @@ export default function Mynavbar() {
 
   return (
     <>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <Link class="navbar-item" to="/">
             imhannaho
@@ -24,7 +24,6 @@ export default function Mynavbar() {
           <div class="navbar-start">
             <Link to="/" className="navbar-item">Home</Link>
             <Link to="/projects" className="navbar-item">Projects</Link>
-            <Link to="/blog" className="navbar-item">Blog</Link>
           </div>
         </div>
       </nav>

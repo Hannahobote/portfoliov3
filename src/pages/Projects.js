@@ -1,42 +1,49 @@
 import React from 'react'
-import MyCard from '../components/MyCard';
 
 function Projects() {
   const projects = [
     {
       name: 'Snippets',
-      description: 'lalalalallaalalal'
+      description: 'lalalalallaalalal',
+      link: ''
     },
     {
-      name: 'Snippets',
-      description: 'lalalalallaalalal'
+      name: 'Webhooks',
+      description: 'lalalalallaalalal',
+      link: ''
     },
     {
-      name: 'Snippets',
-      description: 'lalalalallaalalal'
+      name: 'Picture it',
+      description: 'lalalalallaalalal',
+      link: ''
+    }, 
+    {
+      name: 'PWA',
+      description: 'lalalalallaalalal',
+      link: ''
     }
   ]
   return (
     <div>
-      <section class="hero is-primary">
+      <section class="hero is-medium is-light mb-5">
         <div class="hero-body">
           <p class="title">
-            Primary hero
+            Projects
           </p>
           <p class="subtitle">
-            Primary subtitle
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
           </p>
         </div>
       </section>
 
-      <div class="columns is-centered ">
+      <div class="columns is-centered">
         <div class="column">{/*empty */}</div>
         <div class="column">
           {projects.map((project, i) => (
-            <div class="notification is-link is-light" key={i}>
-              <h3> {project.name}</h3>
-              <h6>{project.description}</h6>
-              <button class="button is-danger">Github</button>
+            <div class="box mx-auto" key={i}>
+              <h1 className='is-size-3'>{project.name}</h1>
+              <h6 className='is-size-5'>{project.description}</h6>
+              <button className='button' href={project.link}>Github</button>
             </div>
           ))}
         </div>
