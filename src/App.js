@@ -8,7 +8,6 @@ import Blog from './pages/Blog'
 import GitBasics from './pages/GitBasics'
 import Error from './pages/Error.js'
 import Mynavbar from './components/Mynavbar';
-// const { Header, Footer } = Layout
 
 function App() {
  
