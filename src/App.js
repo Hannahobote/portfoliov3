@@ -1,6 +1,4 @@
 import React from 'react'
-import 'bulma/css/bulma.min.css'
-// import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js'
 import Projects from './pages/Projects'
@@ -19,6 +17,7 @@ function App() {
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>
+
     </div>
   )
 }
