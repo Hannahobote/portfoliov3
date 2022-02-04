@@ -1,0 +1,15 @@
+/*@UTF-8*/
+
+.my-bg {
+  background-color: #c98ac3 !important;
+} 
+
+.my-primary-text {
+  color: #ffd064;
+}
+
+.my-btn {
+  background-color: #fcc64a !important;
+  transition-duration: 0.4s;
+  color: black;
+}
