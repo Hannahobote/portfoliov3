@@ -1,32 +1,40 @@
 import React from 'react'
 import MyProjectsCard from '../components/MyProjectsCard'
+import pwa from '../img/pwa-example.png'
+import snippets from '../img/snippets-example.png'
 
 function Projects() {
   const projects = [
     {
+      name: 'PWA',
+      description: 'I made an PWA-like app using vanilla JavaScript and utilized custom components.',
+      link: 'https://imhannaho-pwa.netlify.app/',
+      github: 'https://github.com/Hannahobote/PWA',
+      img: {pwa}
+    },
+    {
       name: 'Snippets',
-      description: 'lalalalallaalalal',
-      link: 'here'
+      description: 'Coming soon',
+      link: 'here',
+      github: 'here'
     },
     {
       name: 'Webhooks',
-      description: 'lalalalallaalalal',
-      link: 'here'
+      description: 'Coming soon',
+      link: 'here',
+      github: 'here'
     },
     {
       name: 'Picture it',
-      description: 'lalalalallaalalal',
-      link: 'here'
-    },
-    {
-      name: 'PWA',
-      description: 'lalalalallaalalal',
-      link: 'here'
+      description: 'Coming soon',
+      link: 'here',
+      github: 'here'
     }
   ]
   const projectCard = projects.map((item, i) =>
     <MyProjectsCard
-      github={item.link}
+      img={item.img}
+      github={item.github}
       link={item.link}
       name={item.name}
       description={item.description} />
@@ -40,16 +48,26 @@ function Projects() {
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white"> Projects</h1>
             <div class="h-1 w-20 bg-indigo-500 rounded"></div>
           </div>
-          <p class="lg:w-1/2 w-full leading-relaxed text-gray-400">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-400">These are the projects I've working on so far. Most of them are projects made as my university assignments. Im currently learning MERN-stack and Next.js for my personal projects I want to make. I also think it will come in handy for the rest of my university assignments.</p>
         </div>
-
-        <h1 className='text-white  text-4xl'>Stack</h1>
-      <p className='text-left text-slate-400  my-5 mx-5'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium corporis ab dicta ut voluptatibus assumenda quas cupiditate id quasi officia pariatur aperiam rem quia aliquam, explicabo labore quo eum. Iste molestias sit eos dolorem, qui ut labore obcaecati consequatur animi explicabo possimus non maiores voluptatem eius quasi excepturi culpa perspiciatis! Distinctio amet laboriosam velit dicta eaque assumenda officiis dolore qui quisquam enim aspernatur tenetur tempora hic eos inventore corrupti delectus error, officia a tempore, quibusdam sapiente architecto temporibus possimus?
-      </p>
-      
         <div class="flex flex-wrap -m-4">
+          {/*
         {projectCard}
+           */}
+        <MyProjectsCard
+          img={pwa}
+          name={'PWA'}
+          github={'https://github.com/Hannahobote/PWA'}
+          description={'I made an PWA-like app using vanilla JavaScript and utilized custom components.'} 
+          link={'https://imhannaho-pwa.netlify.app/'} />
+
+        <MyProjectsCard
+          img={snippets}
+          name={'Snippets'}
+          github={'https://github.com/Hannahobote/Snippets'}
+          description={'An app where yu can save your code snippets. Link to website coming soon.'} 
+          link={'https://imhannaho-pwa.netlify.app/'} 
+          />
         </div>
       </div>
     </section>
