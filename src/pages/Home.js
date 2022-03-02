@@ -10,11 +10,24 @@ function Home() {
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"> Hello Im Hannah
             <br class="hidden lg:inline-block" /> an inspiring fullstack developer
           </h1>
-          <p class="mb-8 leading-relaxed text-slate-400">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-          <div class="flex justify-center">
-            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">LinkedIn</button>
-            <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">GitHub</button>
-          </div>
+          <p class="mb-8 leading-relaxed text-slate-400"> I'm currently an computer science student at Linnaeus University, and will graduate 2024.
+           <br/> My university focuses mainly on teaching how to develop full stack applications. </p>
+           
+           <div class="flex justify-center">
+           <a href="https://www.linkedin.com/in/hannah-obote-61110619a/" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">LinkedIn</a>
+           <a href="https://github.com/Hannahobote" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Github</a>
+           </div>
+
+       
+            {/*
+            
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                LinkedIn</button>
+              <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">GitHub</button>
+            </div>
+            
+            */}
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img class="object-cover object-center rounded lg:visible sm:invisible" alt="hero" style={{ width: '350px', height: '350px' }} src={icon} />
@@ -22,19 +35,8 @@ function Home() {
       </div>
 
       {/* content */}
-      <div className='container mx-auto py-24 px-24 items-center'>
-      <h1 className='text-white text-4xl'>About me</h1>
-      <p  className='text-left text-slate-400  my-5 mx-5'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium corporis ab dicta ut voluptatibus assumenda quas cupiditate id quasi officia pariatur aperiam rem quia aliquam, explicabo labore quo eum. Iste molestias sit eos dolorem, qui ut labore obcaecati consequatur animi explicabo possimus non maiores voluptatem eius quasi excepturi culpa perspiciatis! Distinctio amet laboriosam velit dicta eaque assumenda officiis dolore qui quisquam enim aspernatur tenetur tempora hic eos inventore corrupti delectus error, officia a tempore, quibusdam sapiente architecto temporibus possimus?
-      </p>
-
-      <h1 className='text-white  text-4xl'>Stack</h1>
-      <p className='text-left text-slate-400  my-5 mx-5'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium corporis ab dicta ut voluptatibus assumenda quas cupiditate id quasi officia pariatur aperiam rem quia aliquam, explicabo labore quo eum. Iste molestias sit eos dolorem, qui ut labore obcaecati consequatur animi explicabo possimus non maiores voluptatem eius quasi excepturi culpa perspiciatis! Distinctio amet laboriosam velit dicta eaque assumenda officiis dolore qui quisquam enim aspernatur tenetur tempora hic eos inventore corrupti delectus error, officia a tempore, quibusdam sapiente architecto temporibus possimus?
-      </p>
+      <div className='container mx-auto  items-center'>
       </div>
-
-
     </section>
   )
 }

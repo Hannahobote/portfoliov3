@@ -42,6 +42,12 @@ function Projects() {
           </div>
           <p class="lg:w-1/2 w-full leading-relaxed text-gray-400">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
         </div>
+
+        <h1 className='text-white  text-4xl'>Stack</h1>
+      <p className='text-left text-slate-400  my-5 mx-5'>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium corporis ab dicta ut voluptatibus assumenda quas cupiditate id quasi officia pariatur aperiam rem quia aliquam, explicabo labore quo eum. Iste molestias sit eos dolorem, qui ut labore obcaecati consequatur animi explicabo possimus non maiores voluptatem eius quasi excepturi culpa perspiciatis! Distinctio amet laboriosam velit dicta eaque assumenda officiis dolore qui quisquam enim aspernatur tenetur tempora hic eos inventore corrupti delectus error, officia a tempore, quibusdam sapiente architecto temporibus possimus?
+      </p>
+      
         <div class="flex flex-wrap -m-4">
         {projectCard}
         </div>
