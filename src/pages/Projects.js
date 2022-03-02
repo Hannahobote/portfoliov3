@@ -4,7 +4,7 @@ import pwa from '../img/pwa-example.png'
 import snippets from '../img/snippets-example.png'
 
 function Projects() {
-  const projects = [
+  /*const projects = [
     {
       name: 'PWA',
       description: 'I made an PWA-like app using vanilla JavaScript and utilized custom components.',
@@ -30,15 +30,15 @@ function Projects() {
       link: 'here',
       github: 'here'
     }
-  ]
-  const projectCard = projects.map((item, i) =>
+  ]*/
+  /*const projectCard = projects.map((item, i) =>
     <MyProjectsCard
       img={item.img}
       github={item.github}
       link={item.link}
       name={item.name}
       description={item.description} />
-  );
+  );*/
 
   return (
     <section class="text-gray-400 body-font bg-gray-900">
