@@ -62,7 +62,7 @@ function Projects() {
 
         <MyProjectsCard
           name={'Snippets'}
-          description={'An app where yu can save your code snippets. Made with Express.js and handlebars.js as a view engine.'} 
+          description={'An app where you can save your code snippets. Made with Express.js and handlebars.js as a view engine.'} 
           github={'https://github.com/Hannahobote/Snippets'}
           link={'https://imhannaho-snippets.herokuapp.com/'} 
           /> 
