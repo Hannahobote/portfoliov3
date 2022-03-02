@@ -1,7 +1,7 @@
 import React from 'react'
 import MyProjectsCard from '../components/MyProjectsCard'
-import pwa from '../img/pwa-example.png'
-import snippets from '../img/snippets-example.png'
+// import pwa from '../img/pwa-example.png'
+// import snippets from '../img/snippets-example.png'
 
 function Projects() {
   /*const projects = [
@@ -55,19 +55,17 @@ function Projects() {
         {projectCard}
            */}
         <MyProjectsCard
-          img={pwa}
           name={'PWA'}
           description={'I made an PWA-like app using vanilla JavaScript and utilized custom components.'} 
           github={'https://github.com/Hannahobote/PWA'}
           link={'https://imhannaho-pwa.netlify.app/'} />
 
         <MyProjectsCard
-          img={snippets}
           name={'Snippets'}
-          description={'An app where yu can save your code snippets. Link to website coming soon.'} 
+          description={'An app where yu can save your code snippets. Made with Express.js and handlebars.js as a view engine.'} 
           github={'https://github.com/Hannahobote/Snippets'}
           link={'https://imhannaho-snippets.herokuapp.com/'} 
-          />
+          /> 
         </div>
       </div>
     </section>

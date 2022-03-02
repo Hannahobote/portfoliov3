@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MyCard({ github, link, name, description, img }) {
+function MyCard({ github, link, name, description }) {
   //img  = img ? img : "https://dummyimage.com/720x400"
   //console.log(img)
   return (
