@@ -57,16 +57,16 @@ function Projects() {
         <MyProjectsCard
           img={pwa}
           name={'PWA'}
-          github={'https://github.com/Hannahobote/PWA'}
           description={'I made an PWA-like app using vanilla JavaScript and utilized custom components.'} 
+          github={'https://github.com/Hannahobote/PWA'}
           link={'https://imhannaho-pwa.netlify.app/'} />
 
         <MyProjectsCard
           img={snippets}
           name={'Snippets'}
-          github={'https://github.com/Hannahobote/Snippets'}
           description={'An app where yu can save your code snippets. Link to website coming soon.'} 
-          link={'https://imhannaho-pwa.netlify.app/'} 
+          github={'https://github.com/Hannahobote/Snippets'}
+          link={'https://imhannaho-snippets.herokuapp.com/'} 
           />
         </div>
       </div>
